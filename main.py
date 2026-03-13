@@ -92,7 +92,7 @@ def main():
 
     elif choice == "3":
         if os.path.exists(SESSION_FILE):
-            os.delete(SESSION_FILE)
+            os.remove(SESSION_FILE)
             print("\nSession log cleared.")
 
     else:
